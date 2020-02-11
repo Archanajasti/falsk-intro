@@ -103,7 +103,18 @@ def generate_HTML():
     return """
     <!doctype html>
     <html>
-      <body>{}</body>
+      <body>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="1">INSULTS</th>
+              <th colspan="1">AWESOMENESS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{}</td>
+      </body>
     </html>
     """.format(INSULTS)
 
